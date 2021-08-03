@@ -1,0 +1,208 @@
+.mainInfo {
+  .row {
+    margin-bottom: 0;
+  }
+  .formBg {
+    background-color: $primary-color;
+    color: #fff;
+    text-align: right;
+    height: 88vh;
+    .formContainer {
+      width: 30vw;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      @media screen and (max-width: 860px) {
+        width: 90%;
+      }
+      h5 {
+        font-family: $fontBold;
+        text-align: center;
+        margin-bottom: 2vw;
+        margin-top: 0;
+      }
+      input {
+        border: 0.1vw solid #9fbed8;
+        border-bottom: 0.1vw solid #9fbed8;
+        border-radius: 0.3vw;
+        font-size: 1.1rem;
+        margin: 0 0 1vw 0;
+        padding: 0 0.6vw;
+        text-align: right;
+        font-family: $fontLight;
+        color: #fff;
+        @media screen and (max-width: 860px) {
+          margin: 0 0 5vw 0;
+          padding-right: 3vw;
+          width: 96%;
+        }
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+          margin: 0 0 2vw 0;
+          width: 98%;
+          padding-right: 1vw;
+        }
+        &::placeholder {
+          color: #fff;
+          font-family: $fontLight;
+          @media screen and (max-width: 860px) {
+            padding-right: 3vw;
+          }
+        }
+      }
+      a {
+        color: $secondary-color;
+        border: 0.1vw solid $secondary-color;
+        width: 100%;
+        display: flex;
+        border-radius: 10vw;
+        height: 3vw;
+        justify-content: center;
+        align-items: center;
+        font-family: $fontBold;
+        font-size: 1.1rem;
+        margin-top: 2vw;
+        @media screen and (max-width: 860px) {
+          height: 15vw;
+          margin-top: 8vw;
+        }
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+          height: 6vw;
+          margin-top: 2vw;
+        }
+        &:hover {
+          background-color: $secondary-color;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .instructorBg {
+    background-color: $secondary-color;
+    height: 88vh;
+    .instContainer {
+      text-align: center;
+      width: 35vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      margin: 0 auto;
+      height: 100%;
+
+      @media screen and (max-width: 860px) {
+        width: 100%;
+      }
+      .instructorImg {
+        object-fit: cover;
+        width: 17vw;
+        height: 17vw;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 30vw;
+        margin: 0 auto;
+        @media screen and (max-width: 860px) {
+          width: 40vw;
+          height: 40vw;
+        }
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+          width: 20vw;
+          height: 20vw;
+        }
+      }
+      h5 {
+        font-family: $fontBold;
+        color: $primary-color;
+        margin: 1vw 0;
+        margin-top: 2vw;
+      }
+      h6 {
+        font-family: $fontBold;
+        color: #333333;
+        margin: 0;
+        margin-bottom: 2vw;
+        @media screen and (max-width: 860px) {
+          margin-bottom: 6vw;
+        }
+      }
+      p {
+        font-family: $fontLight;
+        color: #333333;
+        margin: 0;
+        line-height: 1.7;
+        margin-bottom: 2vw;
+        font-size: 1.15rem;
+        @media screen and (max-width: 860px) {
+          margin-bottom: 5vw;
+        }
+      }
+      ul {
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+
+        a {
+          margin: 0 0.5vw;
+          border-radius: 80vw;
+          height: 4vw;
+          width: 4vw;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          @media screen and (max-width: 860px) {
+            height: 14vw;
+            width: 14vw;
+          }
+          @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+            height: 7vw;
+            width: 7vw;
+          }
+          &:nth-child(1) {
+            background-color: #f61c0d;
+          }
+          &:nth-child(2) {
+            background-color: #03a9f4;
+          }
+          &:nth-child(3) {
+            background-color: #3b5999;
+          }
+          li {
+            img {
+              object-fit: contain;
+              height: 2vw;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: contain;
+              @media screen and (max-width: 860px) {
+                height: 5.8vw;
+              }
+              @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+                height: 2.5vh;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+footer {
+  background-color: #ffffff;
+  padding: 1.3vw 0;
+  @media screen and (max-width: 860px) {
+    padding: 6.3vw 0;
+  }
+
+  h6 {
+    text-align: center;
+    font-family: $fontLight;
+    color: #333333;
+    margin: 0;
+    margin-bottom: 0.8vw;
+  }
+}

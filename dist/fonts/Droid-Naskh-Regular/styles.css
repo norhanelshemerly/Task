@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Droid-Naskh-Regular';
+  src: url(./Droid-Naskh-Regular.eot);
+  src: url(./Droid-Naskh-Regular.eot?#iefix) format('embedded-opentype'),
+       url(./Droid-Naskh-Regular.otf) format('otf'),
+       url(./Droid-Naskh-Regular.svg#Droid-Naskh-Regular) format('svg'),
+       url(./Droid-Naskh-Regular.ttf) format('truetype'),
+       url(./Droid-Naskh-Regular.woff) format('woff'),
+       url(./Droid-Naskh-Regular.woff2) format('woff2');
+}

@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'GE_SS_Two_Medium';
+  src: url(./GE_SS_Two_Medium.eot);
+  src: url(./GE_SS_Two_Medium.eot?#iefix) format('embedded-opentype'),
+       url(./GE_SS_Two_Medium.otf) format('otf'),
+       url(./GE_SS_Two_Medium.svg#GE_SS_Two_Medium) format('svg'),
+       url(./GE_SS_Two_Medium.ttf) format('truetype'),
+       url(./GE_SS_Two_Medium.woff) format('woff'),
+       url(./GE_SS_Two_Medium.woff2) format('woff2');
+}
