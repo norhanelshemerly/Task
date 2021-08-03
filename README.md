@@ -1,15 +1,3 @@
-# Sassy Materialize
-compiles, concatenates, and minifies materialize v1.0.0 files using Gulp 4. 
-
-Link to the Materialize framework source code: https://github.com/Dogfalo/materialize
-
-#### Setup
-```
-git clone https://github.com/deluxateer/sassy-materialize.git
-cd sassy-materialize
-npm install
-npm run build
-```
 
 ## How to Use
 
